@@ -1,0 +1,19 @@
+[project]
+name = "goit-algo2-hw-05"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Your Name",email = "you@example.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mmh3 (>=5.0.1,<6.0.0)",
+    "bitarray (>=3.0.0,<4.0.0)",
+    "hyperloglog (>=0.0.14,<0.0.15)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
